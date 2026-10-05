@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.npy binary
+*.npz binary
+*.pkl binary
+*.pt binary
+*.onnx binary
