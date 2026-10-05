@@ -1,0 +1,13 @@
+.git
+.venv
+data
+models
+mlruns
+mlartifacts
+outputs
+**/__pycache__
+**/*.pyc
+**/.ipynb_checkpoints
+.pytest_cache
+.ruff_cache
+.env
