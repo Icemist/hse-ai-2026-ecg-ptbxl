@@ -1,6 +1,6 @@
 # Аугментации ЭКГ - чекпоинт 2
 
-В [augmentation.ipynb](../../notebooks/augmentation.ipynb) сравниваются добавление шума, изменение амплитуды, дрейф изолинии и временной сдвиг. Графики и таблицы уже сохранены в ноутбуке.
+В [общем EDA.ipynb](../../notebooks/EDA.ipynb) (раздел 5) сравниваются добавление шума, изменение амплитуды, дрейф изолинии и временной сдвиг. Графики и таблицы уже сохранены в ноутбуке. Исходная отдельная работа сохранена в [augmentation.ipynb](../../notebooks/augmentation.ipynb).
 
 Модуль `src/ecg_ptbxl/augmentation_data.py` выбирает записи и скачивает сигналы; `src/ecg_ptbxl/augmentations.py` реализует преобразования.
 
@@ -38,7 +38,7 @@ uv run jupyter nbconvert --to notebook --execute --inplace notebooks/augmentatio
 - `environment.json` - версии Python/пакетов, источник и SHA256 метаданных.
 - `metrics.csv` - 2100 индивидуальных измерений; `realized_snr_db` заполнен только для шума.
 - `summary.csv` - медианы и IQR; `summary_by_group.csv` - медианы по группам.
-- `conclusions.md` - текстовое сравнение результатов преобразований.
+- Выводы включены в общий `notebooks/EDA.ipynb` и исходный `notebooks/augmentation.ipynb`.
 - `recommendations.csv` - отдельная таблица предложений для следующих экспериментов.
 - `figures/` - шесть рисунков, также встроенных в ноутбук.
 
